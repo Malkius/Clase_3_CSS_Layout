@@ -1,0 +1,106 @@
+/** General fuentes y márgenes **/
+body     {
+    font-family: 'Fira Sans', sans-serif;
+    background-color: #FFFFFF;
+    margin: 10px;
+}
+
+/** Imágenes **/
+.aplicacion {
+    height: 25px;
+    width: 25px;
+}
+.login {
+    height: 25px;
+    width: 25px;
+}
+.logo-bugle {
+    height: 125px;
+    width: 125px;
+}
+
+/** Menú inicio navegación **/
+.navegacion a {
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.navegacion {
+    text-align: right;
+}
+
+/** Principal **/
+.principal {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+}
+.texto-logo {
+    letter-spacing: 5px;
+}
+
+/** Búsqueda **/
+.contenedor-busqueda {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.botones {
+    padding-top: 20px;
+}
+button {
+    cursor: pointer; 
+}
+
+/** Pie de página **/
+.contenedor-footer {
+    background-color: #F2F2F2;
+    height: 75px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    width: calc(100% - 20px); /**Se me desborda el contenido a la derecha **/
+
+}
+.pais {
+    font-size: 15px;
+    height: 50%;
+    color: rgba(0,0,0,.54);
+    padding-left: 10px;
+    border: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.contenedor-navegacion {
+    font-size: 12px;
+    height: 50%;
+    border: 1px solid #e4e4e4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegacion-a a {
+    color: rgba(0,0,0,.54);
+    width: 50%;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.navegacion-b a {
+    color: rgba(0,0,0,.54);
+    width: 50%;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-right: 10px;
+}
+.navegacion-b a:last-of-type {
+    margin: 0;
+}
